@@ -1,6 +1,6 @@
-var media_width = window.matchMedia("(max-width: 400px)")
-adjustScreenElements(media_width) // Call listener function at run time
-media_width.addListener(adjustScreenElements) // Attach listener function on state changes
+//var media_width = window.matchMedia("(max-width: 400px)")
+//adjustScreenElements(media_width) // Call listener function at run time
+//media_width.addListener(adjustScreenElements) // Attach listener function on state changes
 
 
 var navi_open = false;

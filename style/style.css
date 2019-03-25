@@ -202,6 +202,14 @@ a.bold{
     padding-left: 0;
 }
 
+.container.logos{
+    height: 50px;
+}
+
+.section.contact a.image_holder{
+    width: 50px;
+}
+
 .section.contact img{
     cursor: pointer;
     width: 32px;
@@ -215,9 +223,15 @@ a.bold{
 .footer {
     text-align: center;
     font-size: 18px;
+    
 }
 
 html {
 	scroll-behavior: smooth;
+}
+
+@media all and (max-width: 700px) {
+    .middle .column, .middle .column.right, .section .column.middle, .section .column.right, .section .column { width: 100%}
+    #portrait {display: none}
 }
 
