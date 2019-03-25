@@ -51,6 +51,7 @@ a.bold{
     padding: 5px 10px 5px 10px;
     border-style: solid;
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 .btn:hover{
@@ -92,6 +93,7 @@ a.bold{
 }
 
 /* style for header row with image */
+
 .row:after {
     content: "";
     display: table;
@@ -149,7 +151,7 @@ a.bold{
 
 .section {
     margin: 0;
-    padding: 20px 20px 5px 40px;
+    padding: 20px 10px 5px 40px;
 }
 
 .section .section_title{
@@ -178,6 +180,10 @@ a.bold{
     color: #0e5d89;
 }
 
+.section .row {
+    margin-right: 0px;
+}
+
 .section .column{
     text-transform: uppercase;
     float: left;
@@ -188,7 +194,7 @@ a.bold{
     width: 35%;
 }
 .section .column.right{
-    width: 30%;
+    width: 35%;
 }
 .section ul{
     padding: 0;
