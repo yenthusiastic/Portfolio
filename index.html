@@ -16,7 +16,7 @@
         <a href="#contact">Contact</a>
         <a href="https://blog.thunguyen.cc" target="_blank">Blog</a>        
     </div>
-    <div class="menu_btn" onclick="animateMenuBtn(this); openNavi()">
+    <div class="menu_btn" id="menu_btn" onclick="animateMenuBtn(this); openNavi()">
             <div class="bar1"></div>
             <div class="bar2"></div>
             <div class="bar3"></div>
@@ -39,39 +39,39 @@
                 <div class="row section intro" name="intro">
                         <h1>Hi! I'm Thu.</h1>
                         <h2>I am a Master student and seft-taught developer based in Germany.</h2>
-                    </div>
-                    <div class="row section about">
-                            <a class="section_title">About me</a>
-                            <p>
-                                I'm a Vietnamese student currently pursing my Master degree titled
-                                <a style="font-weight: 600;">Information Engineering and Computer Sciences</a> 
-                                at Rhein-Waal University of Applied Sciences in Kamp-Lintfort, Germany.
-                                Previously, I completed by Bachelor programme in <a style="font-weight: 600;">
-                                Communication and Information Engineering</a> at the same university.
-                            </p> 
-                            <p>
-                                For my bachelor thesis, I worked under the <a style="font-weight: 600;">
-                                student-initiated research project "Phenix"</a>
-                                which aims to build a smart UAV that is capable of avoid collision through Deep Neural
-                                Network for applications in indoor Search and Rescue operations. 
-                            </p>   
-                            <p>
-                                Besides studying, I am also working part-time at <a style="font-weight: 600;">
-                                FabLab Kamp-Lintfort</a>, one of many digital fabrication labs around the world.
-                                Here, my task is to support students with digital fabrication assignments ranging from
-                                2D designing to building electronics.
-                            </p>
-                            <p>
-                                I also work at <a style="font-weight: 600;">RF-Frontend GmbH</a>, a company providing
-                                engineering solutions relating to antenna measurement and more industrial applications.
-                                Here, my main task is to develop and maintain softwares which keep track of company's 
-                                inventory or perform automated measurements. 
-                            </p>  
-                            
-                        </div>
+                </div>
+                <div class="row section about">
+                    <a class="section_title">About me</a>
+                    <p>
+                        I'm a Vietnamese student currently pursing my Master degree titled
+                        <a class="bold">Information Engineering and Computer Sciences</a> 
+                        at Rhein-Waal University of Applied Sciences in Kamp-Lintfort, Germany.
+                        Previously, I completed by Bachelor programme in <a class="bold">
+                        Communication and Information Engineering</a> at the same university.
+                    </p> 
+                    <p>
+                        For my bachelor thesis, I worked under the <a class="bold">
+                        student-initiated research project "Phenix"</a>
+                        which aims to build a smart UAV that is capable of avoid collision through Deep Neural
+                        Network for applications in indoor Search and Rescue operations. 
+                    </p>   
+                    <p>
+                        Besides studying, I am also working part-time at <a class="bold">
+                        FabLab Kamp-Lintfort</a>, one of many digital fabrication labs around the world.
+                        Here, my task is to support students with digital fabrication assignments ranging from
+                        2D designing to building electronics.
+                    </p>
+                    <p>
+                        I also work at <a class="bold">RF-Frontend GmbH</a>, a company providing
+                        engineering solutions relating to antenna measurement and more industrial applications.
+                        Here, my main task is to develop and maintain softwares which keep track of company's 
+                        inventory or perform automated measurements. 
+                    </p>  
+                    
+                </div>
             </div>
-            <div class="column right">
-                <div class="header"></div>
+            <div class="column right" id="portrait">
+                <div class="column_title"></div>
                 <div class="img">Photo coming soon...</div>
             
             </div>
@@ -106,7 +106,7 @@
                     <a class="btn" href="https://yenthusiastic.github.io/FODF/" target="_blank">
                         Documentation</a>
                 </div>
-                <div class="column">
+                <div class="column right">
                     <a class="section_subtitle">Others</a>
                     <ul>
                         <li>Linux, Ubuntu</li>
@@ -125,7 +125,7 @@
         <div class="row section portfolio">
             <div class="row section_title">Portfolio</div>
             <div class="row container">
-                <a class="btn">Check out my CV</a>
+                <a class="btn" href="#">Check out my CV</a>
             </div>
             
         </div>
@@ -133,9 +133,9 @@
         <div class="row section contact">
             <a class="section_title">Contact me</a>
             <div class="row container">
-                <img src="resource/GitHub-Mark-64px.png" href="https://github.com/yenthusiastic?tab=repositories" target="_blank">
-                <img src="resource/linkedin-logo.png" href="https://www.linkedin.com/in/thi-yen-thu-nguyen-ab7111143/" target="_blank">
-                <img src="resource/mail-logo.png" href="mailto:contact@thunguyen.cc" target="_blank"> 
+                <a href="https://github.com/yenthusiastic?tab=repositories" target="_blank"><img src="resource/GitHub-Mark-64px.png"></a>
+                <a href="https://www.linkedin.com/in/thi-yen-thu-nguyen-ab7111143/" target="_blank"><img src="resource/linkedin-logo.png"></a>
+                <a href="mailto:contact@thunguyen.cc" target="_blank"><img src="resource/mail-logo.png"></a>
             </div>
         </div>
         <div class="row footer">
