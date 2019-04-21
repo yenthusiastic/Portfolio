@@ -236,6 +236,56 @@ html {
 	scroll-behavior: smooth;
 }
 
+.svgwrapper {
+  top:50%;
+  left:35%;
+  width:30%;
+  position: relative;
+    }
+.st0{fill: #f9b8a2;stroke: #f9b8a2;;stroke-width:1;stroke-miterlimit:10;}
+path {
+    fill:#f9b8a2;
+    stroke:#f9b8a2;
+    opacity: 10;
+    stroke-dasharray: 467;
+   
+}
+path.start{
+    animation: csvg 7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+@keyframes csvg {
+    0%{
+        opacity: 0;
+        fill: none;
+        stroke-dashoffset: 460;
+    }
+    10%{
+        opacity: 10;
+        fill: none;
+        stroke-dashoffset: 460;
+    }
+    30%{
+        opacity: 30;
+        fill: none;
+        stroke-dashoffset: 460;
+    }
+    40%{
+        opacity: 50;
+        fill: none;
+        stroke-dashoffset: 460;
+    }
+    70%{
+        fill:rgba(255, 255, 255,0);
+    }
+    100%{
+        opacity: 10;
+        fill: rgba(255,255,255,1);
+        stroke-dashoffset: 0;
+    }
+}
+
+
+
 @media all and (max-width: 700px) {
     .middle .column, .middle .column.right, .section .column.middle, .section .column.right, .section .column { width: 100%}
     #portrait {display: none}

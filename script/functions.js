@@ -22,14 +22,25 @@ function popUpIcon(icon) {
 }
 
 var prevScrollpos = window.pageYOffset;
+var currentScrollPos = 0;
 window.onscroll = function() {
-  var currentScrollPos = window.pageYOffset;
+  currentScrollPos = window.pageYOffset;
   if (prevScrollpos != currentScrollPos && navi_open) {
     document.getElementById("navigation").style.width = "0";
     animateMenuBtn(document.getElementById("menu_btn"));
   } 
   prevScrollpos = currentScrollPos;
 }
+
+
+function animateSignature(){
+  var svg = document.querySelectorAll("path");
+  for (var i = 0; i < svg.length; i++){
+    svg[i].classList.add("start");
+  }
+  
+}
+
 
 
 function adjustScreenElements(media_width) {
